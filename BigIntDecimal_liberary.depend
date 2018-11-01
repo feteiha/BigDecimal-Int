@@ -1,0 +1,71 @@
+# depslib dependency file v1.0
+1540926398 source:c:\users\ehab\desktop\bigintdecimal_liberary\src\bigint.cpp
+	"bigint.h"
+	<iostream>
+	<valarray>
+
+1540924077 c:\users\ehab\desktop\bigintdecimal_liberary\include\bigint.h
+	<iostream>
+	<valarray>
+
+1540925514 source:c:\users\ehab\desktop\bigintdecimal_liberary\main.cpp
+	<iostream>
+	<fstream>
+	<bigint.h>
+
+1541095677 source:g:\college\bigintdecimal_liberary\bigintdecimal_liberary\main.cpp
+	<iostream>
+	<fstream>
+	<bigint.h>
+
+1541074128 g:\college\bigintdecimal_liberary\bigintdecimal_liberary\include\bigint.h
+	<iostream>
+	<valarray>
+
+1541095934 source:g:\college\bigintdecimal_liberary\bigintdecimal_liberary\src\bigint.cpp
+	"bigint.h"
+	<iostream>
+	<valarray>
+
+1541104085 source:c:\users\ehab\desktop\bigintdecimal\bigintdecimal_liberary\main.cpp
+	<iostream>
+	<fstream>
+	<bigint.h>
+
+1541074128 c:\users\ehab\desktop\bigintdecimal\bigintdecimal_liberary\include\bigint.h
+	<iostream>
+	<valarray>
+
+1541104746 source:c:\users\ehab\desktop\bigintdecimal\bigintdecimal_liberary\src\bigint.cpp
+	"bigint.h"
+	<iostream>
+	<valarray>
+
+1541105297 source:c:\users\tomas\pictures\bigintdecimal_liberary\main.cpp
+	<iostream>
+	<fstream>
+	<bigint.h>
+
+1541074128 c:\users\tomas\pictures\bigintdecimal_liberary\include\bigint.h
+	<iostream>
+	<valarray>
+
+1541104746 source:c:\users\tomas\pictures\bigintdecimal_liberary\src\bigint.cpp
+	"bigint.h"
+	<iostream>
+	<valarray>
+
+1541105296 source:c:\users\dell\desktop\fci - cs231 - 2018 - a2 - ta. laila mostafa - g3, 4 - 20170072 - 20170081 - 20170093\task 3\bigintdecimal_liberary\main.cpp
+	<iostream>
+	<fstream>
+	<bigint.h>
+
+1541074128 c:\users\dell\desktop\fci - cs231 - 2018 - a2 - ta. laila mostafa - g3, 4 - 20170072 - 20170081 - 20170093\task 3\bigintdecimal_liberary\include\bigint.h
+	<iostream>
+	<valarray>
+
+1541104746 source:c:\users\dell\desktop\fci - cs231 - 2018 - a2 - ta. laila mostafa - g3, 4 - 20170072 - 20170081 - 20170093\task 3\bigintdecimal_liberary\src\bigint.cpp
+	"bigint.h"
+	<iostream>
+	<valarray>
+

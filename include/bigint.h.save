@@ -1,0 +1,41 @@
+#ifndef BIGINT_H
+#define BIGINT_H
+
+#include <iostream>
+#include <valarray>
+
+using namespace std;
+
+class bigint
+{
+    public:
+        bigint();
+        bigint( string numberStr );
+        bigint( long long int numberLL );
+        
+        bool    valid( string numberStr );
+        
+        void    setNumber( string numberStr );
+        void    setNumber( long long int numberLL );
+        string  getNumber();
+        int     getSize();
+        valarray < int > getArr();
+
+        bigint addition     ( bigint object );
+        bigint subtraction  ( bigint object );
+
+        bigint operator+    ( bigint object );
+        bigint operator-    ( bigint object );
+
+
+    protected:
+
+    private:
+        valarray < int > number;
+        int _size;
+};
+
+void   maximum      ( bigint& maximum_object , bigint& minimum_object );
+void   equal_length ( bigint& maximum_object , bigint& minimum_object );
+
+#endif // BIGINT_H

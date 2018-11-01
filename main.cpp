@@ -1,0 +1,86 @@
+// Course:  CS213 - Programming II  - 2018
+// Title:   Assignment 2 - Task 1 - Problem 0
+// Program: CS213-2018-A1-T1-P0
+// Purpose: Matrix operator overloading
+// Authors: Hussien Ashraf, Ehap Fawzy, Thomas Waheed .
+// IDs:     20170093, 20170072, 20170081
+// Date:    1 November 2018
+// Version: 1.0
+
+#include <iostream>
+#include <fstream>
+#include <bigint.h>
+
+using namespace std;
+
+string x, y;
+void print( bigint a , bigint b )
+{
+    cout << x << " + " << y << " = " << a+b << endl;
+    cout << x << " - " << y << " = " << a-b << endl;
+    cout << endl;
+}
+
+int main()
+{
+
+    x = "3"; y = "8";
+    bigint a(x);
+    bigint b(y);
+    print( a , b );
+
+    x = "-3"; y = "8";
+    a.setNumber( x );
+    b.setNumber( y );
+    print( a , b );
+
+    x = "3"; y = "-8";
+    a.setNumber( x );
+    b.setNumber( y );
+    print( a , b );
+
+    x = "-3"; y = "-8";
+    a.setNumber( x );
+    b.setNumber( y );
+    print( a , b );
+
+    system( "Pause" );
+    system( "CLS" );
+
+    x = "8"; y = "3";
+    a.setNumber( x );
+    b.setNumber( y );
+    print( a , b );
+
+    x = "-8"; y = "3";
+    a.setNumber( x );
+    b.setNumber( y );
+    print( a , b );
+
+    x = "8"; y = "-3";
+    a.setNumber( x );
+    b.setNumber( y );
+    print( a , b );
+
+    x = "-3"; y = "-8";
+    a.setNumber( x );
+    b.setNumber( y );
+    print( a , b );
+
+    system( "Pause" );
+    system( "CLS" );
+
+    int loop = 0;
+    cout << "Enter The number Of inputs :  "; cin >> loop;
+    while ( loop-- )
+    {
+        cout << "Enter The First  number : "; cin >> x; cout << endl;
+        cout << "Enter The Second number : "; cin >> y;
+        a.setNumber( x ); b.setNumber( y );
+        print( a , b );
+
+        system( "Pause" );
+        system( "CLS" );
+    }
+    return 0;
+}
